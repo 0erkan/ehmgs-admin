@@ -4,6 +4,9 @@
   "installCommand": "npm install",
   "outputDirectory": "dist",
   "cleanUrls": true,
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ],
   "github": {
     "silent": true
   }

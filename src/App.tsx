@@ -1,5 +1,5 @@
 import { Routes, Route, Link, useLocation, Navigate } from 'react-router-dom';
-import { LayoutDashboard, FilePlus, Database, Upload, LogOut } from 'lucide-react';
+import { LayoutDashboard, FilePlus, Upload, LogOut } from 'lucide-react';
 import { useEffect, useState } from 'react';
 import { supabase } from './lib/supabase';
 

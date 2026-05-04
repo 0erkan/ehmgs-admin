@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { supabase } from '../lib/supabase';
-import { Database, FileText, CheckCircle, AlertCircle, Wand2, ArrowRight, Save } from 'lucide-react';
+import { Database, FileText, CheckCircle, AlertCircle, Wand2, Save } from 'lucide-react';
 
 type ParsedQuestion = {
   id: string;
